@@ -1,0 +1,24 @@
+{
+  "name": "testing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest --ui"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "13.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "@vitest/ui": "^0.34.3",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.3"
+  }
+}
