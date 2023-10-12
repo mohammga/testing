@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Quiz from "../components/Quiz";
 import Result from "../components/Result";
-import questionsData from "../lib/quiz.json";
+import questions from "../lib/data.json";
 
 export default function Home() {
   const [isFinished, setIsFinished] = useState(false);
@@ -22,10 +22,10 @@ export default function Home() {
   return (
     <div>
       {!isFinished ? (
-        <Quiz questions={questionsData.questions} onFinish={handleFinish} />
+        <Quiz questions={questions.questions} onFinish={handleFinish} />
       ) : (
         <Result
-          questions={questionsData.questions}
+          questions={questions.questions}
           answers={userAnswers}
           onRestart={handleRestart}
         />

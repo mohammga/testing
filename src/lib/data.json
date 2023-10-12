@@ -1,0 +1,53 @@
+{
+    "questions": [
+      {
+        "title": "Hvilket selskap produserer modellen 'Model S'?",
+        "answers": [
+          { "answer": "BMW" },
+          { "answer": "Toyota" },
+          { "answer": "Ford" },
+          { "answer": "Tesla", "correct": true }
+        ],
+        "helper": {
+          "text": "Dette selskapet er kjent for sine elektriske biler og grunnleggeren er Elon Musk."
+        }
+      },
+      {
+        "title": "Hvilket land er kjent for å produsere Volvo-biler?",
+        "answers": [
+          { "answer": "USA" },
+          { "answer": "Sverige", "correct": true },
+          { "answer": "Tyskland" },
+          { "answer": "Japan" }
+        ],
+        "helper": {
+          "text": "Dette landet er også kjent for IKEA og ABBA."
+        }
+      },
+      {
+        "title": "Hva er hovedformålet med en bilens turbo?",
+        "answers": [
+          { "answer": "Kjøling" },
+          { "answer": "Styring" },
+          { "answer": "Øke kraften", "correct": true },
+          { "answer": "Redusere drivstofforbruk" }
+        ],
+        "helper": {
+          "text": "Dette komponentet øker effektiviteten av motorens inntak ved å tvinge mer luft inn i forbrenningskammeret."
+        }
+      },
+      {
+        "title": "Hvilken bilmerke bruker en logo med fire sammensatte ringer?",
+        "answers": [
+          { "answer": "Audi", "correct": true },
+          { "answer": "Mercedes-Benz" },
+          { "answer": "Volkswagen" },
+          { "answer": "BMW" }
+        ],
+        "helper": {
+          "text": "Dette bilmerket kommer fra Tyskland og er kjent for luksuriøse biler."
+        }
+      }
+    ]
+  }
+  
